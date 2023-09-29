@@ -36,8 +36,8 @@ The election_scraper.py file is run from the command line and requires two argum
 
 Voting results for Znojmo district
 
-> 1.Argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207
-> 2. Argument: vysledek_znojmo.csv, 
+> 1.Argument --> https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207
+> 2. Argument --> vysledek_znojmo.csv 
 
 ### Run the following command:
 
