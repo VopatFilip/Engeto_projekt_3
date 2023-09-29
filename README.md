@@ -5,7 +5,7 @@ The third project at the Python Academy from Engeto.
 # Project description
 
 This project scrapes election data for individual districts, from the official Czech election [website](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) and saves the retrieved data in a CSV file. 
-The program accepts the URL of the page containing links to specific towns' voting results as input and generates a CSV file that lists the number of voters, attendance, valid votes, and votes per party for each town.
+The program accepts the URL of the page containing links to specific towns, voting results as input and generates a CSV file that lists the number of voters, attendance, valid votes, and votes per party for each town.
 
 # Libraries used
 
@@ -22,13 +22,16 @@ For installation, I recommend creating a new virtual environment and Install req
 # Usage
 The election_scraper.py file is run from the command line and requires two arguments.
 
-###Run the script with the following command:
+### Run the script with the following command:
 
 > election_scraper.py <URL> <output_filename>
 
-> <URL>: The URL of the page containing links to specific towns' voting results. 
+< URL>: The URL of the page containing links to specific towns' voting results.
+> 
 > Example: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207
-> <output_filename>: The name of the CSV file where the results will be saved. 
+> 
+<output_filename>: The name of the CSV file where the results will be saved.
+> 
 > Example: vysledek_znojmo.csv
 
 
@@ -46,6 +49,7 @@ Voting results for Znojmo district
 # Download process
 
 > I am downloading data from URL https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207
+>
 > I am saving data to file vysledek_znojmo.csv
 
 # Partial output
