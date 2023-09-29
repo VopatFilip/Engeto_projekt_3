@@ -1,3 +1,10 @@
+"""
+election_scraper.py: třetí projekt do Engeto Online Python Akademie
+author: Filip Vopát
+email: vopat.f@gmail.com
+discord: filipvopat
+"""
+
 import sys
 import csv
 import requests
