@@ -22,7 +22,7 @@ For installation, I recommend creating a new virtual environment and Install req
 # Usage
 The election_scraper.py file is run from the command line and requires two arguments.
 
-### Run the script with the following command:
+Run the script with the following command:
 
 > election_scraper.py <URL> <output_filename>
 
@@ -42,7 +42,7 @@ Voting results for Znojmo district
 > 1. Argument --> https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207
 > 2. Argument --> vysledek_znojmo.csv 
 
-### Run the following command:
+Run the following command:
 
 > python election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6207" „vysledek_znojmo.csv“
 
