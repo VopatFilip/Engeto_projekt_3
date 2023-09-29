@@ -1,5 +1,7 @@
 # Engeto_projekt_3
+
 The third project at the Python Academy from Engeto.
+
 # Project description
 
 This project scrapes election data for individual districts, from the official Czech election [website](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) and saves the retrieved data in a CSV file. 
@@ -17,11 +19,10 @@ For installation, I recommend creating a new virtual environment and Install req
 
 > $ pip install -r requirements.txt
 
-
 # Usage
 The election_scraper.py file is run from the command line and requires two arguments.
 
-Run the script with the following command:
+###Run the script with the following command:
 
 > election_scraper.py <URL> <output_filename>
 
